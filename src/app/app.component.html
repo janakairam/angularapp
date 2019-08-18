@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  Username : {{username}}
+  Signup : {{signup}}
+
+
+  irstname  : <input type="text" [(ngModel)]="username"/> <br/>
+  Sign up : <input type="text" [(ngModel)]="signup"/> <br/>
+  <input type="button" value="Login" (click)="changeData()" />
+
+
+</div>
